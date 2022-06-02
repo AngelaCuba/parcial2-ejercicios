@@ -1,13 +1,13 @@
-
+package Iterator;
 
 import java.util.List;
 
-public class AutomovilLI implements iterator.importadorasAutomoviles.Iterator {
+public class AutomovilLI implements Iterator {
 
-    private List<iterator.importadorasAutomoviles.Automovil> autos;
+    private List<Automovil> autos;
     private int indice;
 
-    public AutomovilLI(List<iterator.importadorasAutomoviles.Automovil> autos) {
+    public AutomovilLI(List<Automovil> autos) {
 
         this.autos = autos;
         indice = 0;

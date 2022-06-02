@@ -1,11 +1,11 @@
+package Iterator;
 
+public class AutomovilIterator implements Iterator {
 
-public class AutomovilIterator implements iterator.importadorasAutomoviles.Iterator {
-
-    private iterator.importadorasAutomoviles.Automovil[] autos;
+    private Automovil[] autos;
     private int indice;
 
-    public AutomovilAI(iterator.importadorasAutomoviles.Automovil[] autos) {
+    public AutomovilAI(Automovil[] autos) {
 
         this.autos = autos;
         indice = 0;

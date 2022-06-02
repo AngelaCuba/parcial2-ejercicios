@@ -1,9 +1,7 @@
+package Iterator;
 
-
- import static jdk.nashorn.internal.objects.NativeSymbol.iterator;
-
- public class AutomovilL {
-    private iterator.importadorasAutomoviles.Automovil[] autos;
+public class AutomovilL {
+    private Automovil[] autos;
     private int indice;
 
     public AutomovilArray() {

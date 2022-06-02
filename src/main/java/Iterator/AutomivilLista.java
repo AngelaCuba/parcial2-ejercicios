@@ -1,4 +1,4 @@
-package iterator.importadorasAutomoviles;
+package Iterator;
 
 import java.util.ArrayList;
 import java.util.List;

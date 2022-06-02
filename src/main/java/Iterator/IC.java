@@ -1,4 +1,4 @@
-package iterator.importadorasAutomoviles;
+package Iterator;
 
 public interface IC {
 
